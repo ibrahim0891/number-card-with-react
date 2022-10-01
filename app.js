@@ -6,12 +6,12 @@ function makeArry(){
     var square = []
     for (i; i <= 30; i++) {
         square.push(<MakeSquare number={i}/>)
-    }
+    } 
     return square
 }
 function CreateSquare(){
     return (
-        <div class='w-[100vw] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-6'>
+        <div class='w-[100vw] p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6'>
             {makeArry()}
         </div>
     )
