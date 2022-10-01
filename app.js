@@ -11,7 +11,7 @@ function makeArry(){
 }
 function CreateSquare(){
     return (
-        <div class='w-[100vw] p-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5'>
+        <div class='w-[100vw] p-5 grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-5'>
             {makeArry()}
         </div>
     )
