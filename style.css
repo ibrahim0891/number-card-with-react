@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap');
+* {
+    box-sizing: border-box;
+    transition: all 0.6s;
+    font-family: 'Lexend', sans-sharif;
+}
+
+body {
+    margin: 1.5rem;
+    background: url('https://img.freepik.com/free-vector/gradient-abstract-colorful-background_23-2149120346.jpg?w=740&t=st=1664636628~exp=1664637228~hmac=6a97e551b5e0459cdb9e542a645be599e318e985becce3377b1b1f2753b7ced0');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.scale {
+    font-size:12em;
+    color: white;
+    border-radius:16px;
+}
+
+.scale:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
